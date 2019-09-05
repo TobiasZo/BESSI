@@ -3,7 +3,7 @@ This is the Bergen Snow Simulator (BESSI). It is a firn model designed for long-
 
 This contains the files necessary to run BESSI V.2. A firn model calculating the mass and energy balance model for a layer firn using a mass based grid. The basic description of the model can be found under 
 
-The version added here contains an additional subroutine that calculates the albedo and the net solar heat flux with different chosen albedo parametrizations. The energy flux calculation now calculates the turbulent latent heat flux, based on the residual method. The vapor flux has significant impact on the SMB on the local scale, for PD conditions. The manuscript describing the model adaption is currently under preparation. 
+The version added here contains an additional subroutine that calculates the albedo and the net solar heat flux with different chosen albedo parametrizations. The energy flux calculation now calculates the turbulent latent heat flux, based on the residual method. The vapor flux has significant impact on the SMB on the local scale, for PD conditions. The manuscript describing the model adaption is currently under preparation. You can download all necessary files in the tar file:
 
 The tar fail contains: 
     -   README
