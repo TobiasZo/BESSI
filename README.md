@@ -4,11 +4,17 @@ This is the Bergen Snow Simulator version 2 (BESSI 2). It is a firn model design
 The version added here contains an additional subroutine that calculates the albedo and the net solar heat flux with different chosen albedo parametrizations. The energy flux calculation now calculates the turbulent latent heat flux, based on the residual method. The vapor flux has significant impact on the SMB on the local scale, for PD conditions. The manuscript describing the model adaption is currently under preparation.
 
 You can download all necessary files in the tar file: The tar fail contains all the model code, and the scripts to run it. In the version used for the sensitivity analysis ensemble simulations. 
+
     -   README
+    
     -   IceBern2D.f90
+    
     -   variables.f90
+    
     -   smb_emb.f90
+    
     -   io.f90
+    
     -   basic_compile.sh
     
 Furthermore two files to show how the ensemble is created and run:
