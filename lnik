@@ -1,0 +1,12 @@
+for i in 1721
+do
+for k in 78 
+do
+for j in {1..63}
+do
+run_num=$(printf "%05d" $i)
+ln -s ensemble_${run_num}_${k}_${j}a* ${i}_${k}_${j}
+echo $j
+done
+done
+done
